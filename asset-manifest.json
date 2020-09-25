@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TypingMaster/static/css/main.b13862f8.chunk.css",
-    "main.js": "/TypingMaster/static/js/main.e7af37c5.chunk.js",
-    "main.js.map": "/TypingMaster/static/js/main.e7af37c5.chunk.js.map",
+    "main.js": "/TypingMaster/static/js/main.4207e7d1.chunk.js",
+    "main.js.map": "/TypingMaster/static/js/main.4207e7d1.chunk.js.map",
     "runtime-main.js": "/TypingMaster/static/js/runtime-main.62d98d5d.js",
     "runtime-main.js.map": "/TypingMaster/static/js/runtime-main.62d98d5d.js.map",
     "static/js/2.deedabf0.chunk.js": "/TypingMaster/static/js/2.deedabf0.chunk.js",
     "static/js/2.deedabf0.chunk.js.map": "/TypingMaster/static/js/2.deedabf0.chunk.js.map",
     "index.html": "/TypingMaster/index.html",
-    "precache-manifest.a0f2c6a5e1d3fde68a882bb76474af98.js": "/TypingMaster/precache-manifest.a0f2c6a5e1d3fde68a882bb76474af98.js",
+    "precache-manifest.c43f214cf88c0ef74665446d26159d10.js": "/TypingMaster/precache-manifest.c43f214cf88c0ef74665446d26159d10.js",
     "service-worker.js": "/TypingMaster/service-worker.js",
     "static/css/main.b13862f8.chunk.css.map": "/TypingMaster/static/css/main.b13862f8.chunk.css.map",
     "static/js/2.deedabf0.chunk.js.LICENSE.txt": "/TypingMaster/static/js/2.deedabf0.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.62d98d5d.js",
     "static/js/2.deedabf0.chunk.js",
     "static/css/main.b13862f8.chunk.css",
-    "static/js/main.e7af37c5.chunk.js"
+    "static/js/main.4207e7d1.chunk.js"
   ]
 }
