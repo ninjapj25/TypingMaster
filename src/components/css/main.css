@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #101820 78.54%, #006b38 100%) no-repeat;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  height: 200px;
+  width: 250px;
+}
+
+nav a img {
+  margin: 20px auto 0;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.main {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.timer {
+  display: none;
+}
+
+.quote-display {
+  user-select: none;
+}
+
+.speed-section {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.speed-section div {
+  width: 50%;
+  text-align: center;
+}
+
+.text-box {
+  margin: 20px auto 0;
+  max-width: 70%;
+  color: black;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 80px 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.type-box {
+  width: 78%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+.type-box textarea {
+  background-color: #006b38;
+  font-family: "Titillium Web", sans-serif;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  height: 100px;
+  outline: none;
+  text-align: center;
+  padding: 50px 50px 0;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.2rem;
+}
+
+.type-box button {
+  margin-top: 20px;
+  padding: 15px 70px;
+  background-color: #006b38;
+  border: none;
+  border-radius: 10px;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  #speed {
+    font-size: 1.1rem;
+  }
+  .text-box {
+    margin: 20px auto 0;
+
+    padding: 30px 50px;
+
+    font-size: 1.1rem;
+  }
+
+  .type-box {
+    width: 100%;
+  }
+
+  .type-box textarea {
+    height: 100px;
+
+    font-size: 1.1rem;
+  }
+
+  .type-box button {
+    padding: 10px 60px;
+
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav a img {
+    margin: 20px auto 0;
+    border-radius: 10px;
+    width: 160px;
+  }
+}
