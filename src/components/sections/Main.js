@@ -67,7 +67,7 @@ export default function Main() {
       });
     }
   };
-  console.log(correct);
+
   if (correct) {
     const word = spans.length / 4.7;
     setCorrect(false);
